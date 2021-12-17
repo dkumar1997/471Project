@@ -9,8 +9,8 @@ const mysql = require("mysql2");
 const connection = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "dheeraj53",
-  database: "471project",
+  password: "",
+  database: "",
 });
 
 app.listen(port, () => console.log(`Listening on port ${port}`));
